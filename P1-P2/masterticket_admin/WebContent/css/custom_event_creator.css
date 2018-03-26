@@ -1,0 +1,71 @@
+.menu_gestion{
+	min-width: 550px;
+}
+.menu_modificar_evento{
+	min-height: 24em;
+}
+
+.menu_crear_evento{
+	min-height: 34.5em;
+}
+
+.opcion_creador{
+	margin-bottom: 1em;
+	min-height: 2em;
+	position: relative;
+	display: block;
+}
+
+.opcion_creador div input{
+	margin: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.opcion_creador div select{
+	margin: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.opcion_creador div h4{
+	margin: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.opcion_creador div{
+	min-height: 2em;
+	position: relative;
+	bottom: 0;
+}
+
+#opcion_descripcion{
+	min-height: 60px;
+	bottom: 0;
+	position: relative; 
+}
+
+#parametro_fecha{
+	min-height: 3em;
+}
+
+#texto_descripcion{
+	bottom: 0;
+	position:relative;
+}
+
+#parametro_descripcion{
+
+}
+	
+#parametro_descripcion textarea{
+	bottom: 0;
+	position: relative;
+}
+
+
+
+#botones_creacion input{
+	margin-right: 1em;
+}

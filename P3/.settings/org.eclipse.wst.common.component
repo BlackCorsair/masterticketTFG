@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GR80.05.Practica3">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="GR80.05.eventos.jar" deploy-path="/lib" handle="module:/resource/GR80.05.eventos/GR80.05.eventos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GR80.05.banco.jar" deploy-path="/lib" handle="module:/resource/GR80.05.banco/GR80.05.banco">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GR80.05.chat.jar" deploy-path="/lib" handle="module:/resource/GR80.05.chat/GR80.05.chat">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GR80.05.client.war" deploy-path="/" handle="module:/resource/GR80.05.client/GR80.05.client">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GR80.05.admin.war" deploy-path="/" handle="module:/resource/GR80.05.admin/GR80.05.admin">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GR80.05.usuarios.jar" deploy-path="/lib" handle="module:/resource/GR80.05.usuarios/GR80.05.usuarios">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

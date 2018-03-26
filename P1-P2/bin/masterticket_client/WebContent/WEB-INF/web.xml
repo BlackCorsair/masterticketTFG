@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>masterticket_client</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>login</display-name>
+		<servlet-name>login</servlet-name>
+		<servlet-class>masterticket.controllers.login</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>registro</display-name>
+		<servlet-name>registro</servlet-name>
+		<servlet-class>masterticket.controllers.registro</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>pedidos</display-name>
+		<servlet-name>pedidos</servlet-name>
+		<servlet-class>masterticket.controllers.pedidos</servlet-class>
+	</servlet>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/500.jsp</location>
+	</error-page>
+	<error-page>
+		<location>/404.jsp</location>
+	</error-page>
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+	</jsp-config>
+</web-app>
